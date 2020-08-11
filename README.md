@@ -1,4 +1,4 @@
-# Power BIo
+# bio-Power BI
 
 Resources for reading and visualizing bioinformatics and genomics data.
 
