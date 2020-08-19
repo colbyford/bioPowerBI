@@ -6,6 +6,7 @@ Resources for reading and visualizing bioinformatics and genomics data. Using th
 
 <p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png" width="100px"></p>
 
+## File Parsers
 
 | Filetype 	| Specification                                    	| Directory    	                | Notes                               |
 |----------	|--------------------------------------------------	|-------------------------------|-------------------------------------|
