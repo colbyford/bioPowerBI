@@ -4,7 +4,7 @@
 
 Resources for reading and visualizing bioinformatics and genomics data. Using the following M (Power Query) scripts and Power BI examples, you can easily read in various esoteric file types commonly found in genomics.
 
-<p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png?token=AA5DFSBIJC67H47MYABFGYK7HQDIA" width="100px"></p>
+<p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png" width="100px"></p>
 
 
 | Filetype 	| Specification                                    	| Directory    	                |
