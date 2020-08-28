@@ -12,6 +12,6 @@ Resources for reading and visualizing bioinformatics and genomics data. Using th
 |----------	|--------------------------------------------------	|-------------------------------|-------------------------------------|
 | .vcf     	| https://samtools.github.io/hts-specs/VCFv4.3.pdf 	| [\vcf](vcf)         	        |                                     |
 | .fastq   	| http://maq.sourceforge.net/fastq.shtml           	| [\fastq](fastq)       	      |                                     |
-| .sam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam_and_sam](bam_and_sam) 	|                                     |
-| .bam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam_and_sam](bam_and_sam) 	| Requires the `Rsamtools` R package  |
+| .sam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\sam](sam) 	|                                     |
+| .bam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam](bam) 	| Requires the `Rsamtools` R package  |
 
