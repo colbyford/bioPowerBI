@@ -2,7 +2,7 @@
 
 let
     // Use rsamtools in an R Script to get the data from the .bam file
-    Source = R.Execute("library(Rsamtools)#(lf)file <- ""C:\\Users\\Colby\\Documents\\GitHub\\bioPowerBI\\bam_and_sam\\sample.bam""#(lf)dataset <- as.data.frame(scanBam(file))"),
+    Source = R.Execute("library(Rsamtools)#(lf)file <- ""C:\\Users\\Colby\\Documents\\GitHub\\bioPowerBI\\bam\\sample.bam""#(lf)dataset <- as.data.frame(scanBam(file))"),
     sample = Source{[Name="dataset"]}[Value]
 in
     sample
