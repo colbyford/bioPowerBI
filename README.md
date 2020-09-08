@@ -14,4 +14,4 @@ Resources for reading and visualizing bioinformatics and genomics data. Using th
 | .fastq   	| http://maq.sourceforge.net/fastq.shtml           	| [\fastq](fastq)       	      | For analysis, this file's sequences should likely be aligned. |
 | .sam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\sam](sam) 	|                                     |
 | .bam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam](bam) 	| Requires the `Rsamtools` R package  |
-| .gff     	| https://m.ensembl.org/info/website/upload/gff3.html   	| [\gff3](gff3) 	| * Work in progess...  |
+| .gff     	| https://m.ensembl.org/info/website/upload/gff3.html   	| [\gff3](gff3) 	| _Work in progess..._  |
