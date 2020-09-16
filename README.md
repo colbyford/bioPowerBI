@@ -15,5 +15,7 @@ Using the following M (Power Query) scripts and Power BI examples, you can easil
 | .vcf     	| https://samtools.github.io/hts-specs/VCFv4.3.pdf 	| [\vcf](vcf)         	        |                                     |
 | .fastq   	| http://maq.sourceforge.net/fastq.shtml           	| [\fastq](fastq)       	      | For analysis, this file's sequences should likely be aligned. |
 | .sam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\sam](sam) 	       	        |                                     |
-| .bam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam](bam)       	          | Requires the `Rsamtools` R package  |
+| .bam     	| https://samtools.github.io/hts-specs/SAMv1.pdf   	| [\bam](bam)       	          | Requires the `Rsamtools` R package. |
 | .gff     	| https://m.ensembl.org/info/website/upload/gff3.html   	| [\gff3](gff3) 	       	|                                     |
+| .bgen    	| https://www.well.ox.ac.uk/~gav/bgen_format/spec/latest.html   	| [\bgen](bgen)   | Requires the `rbgen` R package.<br> _Work in progress..._      |
+
