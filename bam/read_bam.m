@@ -9,6 +9,6 @@ in
 
 /// The R Script above is:
 // library(Rsamtools)
-// file <- "C:\\Users\\Colby\\Documents\\GitHub\\bioPowerBI\\bam_and_sam\\sample.bam"
+// file <- "C:\\Users\\Colby\\Documents\\GitHub\\bioPowerBI\\bam\\sample.bam"
 // dataset <- as.data.frame(scanBam(file))
 ///
