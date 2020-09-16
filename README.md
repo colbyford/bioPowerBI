@@ -2,7 +2,9 @@
 
 <h3 align="right">Josh Crittenden and Colby T. Ford</h3>
 
-Resources for reading and visualizing bioinformatics and genomics data. Using the following M (Power Query) scripts and Power BI examples, you can easily read in various unique file types commonly found in genomics.
+Resources for reading and visualizing bioinformatics and genomics data using Microsoft Power BI.
+
+Using the following M (Power Query) scripts and Power BI examples, you can easily read in various unique file types commonly found in genomics.
 
 <p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png" width="100px"></p>
 
