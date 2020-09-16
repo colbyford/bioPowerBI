@@ -7,9 +7,24 @@ let
     #"Filtered Rows" = Table.SelectRows(Source, each not Text.StartsWith([Column1], "##")),
     // Split into columns by \t character and assign names
     // Note: This removes and values past the 9 standard columns
-    #"Split Column by Delimiter" = Table.SplitColumn(#"Filtered Rows", "Column1", Splitter.SplitTextByDelimiter("#(tab)", QuoteStyle.Csv), {"seqid","source","type","start","end","score","strand","phase","attributes"})
+    #"Split Column by Delimiter" = Table.SplitColumn(#"Filtered Rows", "Column1", Splitter.SplitTextByDelimiter("#(tab)", QuoteStyle.Csv), {"seqid","source","type","start","end","score","strand","phase","attributes"}),
+    // Parse columns from `attributes`
+    #"Add_Attr_ID" = Table.AddColumn(#"Split Column by Delimiter", "ID", each Text.BetweenDelimiters([attributes], "ID=", ";"), type text),
+    #"Add_Attr_Name" = Table.AddColumn(#"Add_Attr_ID", "Name", each Text.BetweenDelimiters([attributes], "Name=", ";"), type text),
+    #"Add_Attr_Alias" = Table.AddColumn(#"Add_Attr_Name", "Alias", each Text.BetweenDelimiters([attributes], "Alias=", ";"), type text),
+    #"Add_Attr_Parent" = Table.AddColumn(#"Add_Attr_Alias", "Parent", each Text.BetweenDelimiters([attributes], "Parent=", ";"), type text),
+    #"Add_Attr_Target" = Table.AddColumn(#"Add_Attr_Parent", "Target", each Text.BetweenDelimiters([attributes], "Target=", ";"), type text),
+    #"Add_Attr_Gap" = Table.AddColumn(#"Add_Attr_Target", "Gap", each Text.BetweenDelimiters([attributes], "Gap=", ";"), type text),
+    #"Add_Attr_Derives_from" = Table.AddColumn(#"Add_Attr_Gap", "Derives_from", each Text.BetweenDelimiters([attributes], "Derives_from=", ";"), type text),
+    #"Add_Attr_Note" = Table.AddColumn(#"Add_Attr_Derives_from", "Note", each Text.BetweenDelimiters([attributes], "Note=", ";"), type text),
+    #"Add_Attr_Dbxref" = Table.AddColumn(#"Add_Attr_Note", "Dbxref", each Text.BetweenDelimiters([attributes], "Dbxref=", ";"), type text),
+    #"Add_Attr_Ontology_term" = Table.AddColumn(#"Add_Attr_Dbxref", "Ontology_term", each Text.BetweenDelimiters([attributes], "Ontology_term=", ";"), type text),
+    #"Add_Attr_evidence" = Table.AddColumn(#"Add_Attr_Ontology_term", "evidence", each Text.BetweenDelimiters([attributes], "evidence=", ";"), type text),
+    // Remove `attributes` column
+    #"Removed Columns" = Table.RemoveColumns(Add_Attr_evidence,{"attributes"})
+
 in
-    #"Split Column by Delimiter"
+    #"Removed Columns"
 
 ////////////////////////////////
 // Read in Header
