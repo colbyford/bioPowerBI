@@ -3,6 +3,8 @@
 let
     // Read in file
     Source = Table.FromColumns({Lines.FromBinary(File.Contents("C:\Users\Colby\Documents\GitHub\bioPowerBI\fasta\sample.fasta"), null, null, 65001)}),
+    // Read in file from web
+    //Source = Table.FromColumns({Lines.FromBinary(Web.Contents("https://plasmodb.org/common/downloads/release-49/Pfalciparum3D7/fasta/data/PlasmoDB-49_Pfalciparum3D7_AnnotatedProteins.fasta"), null, null, 1252)}),
     // Add index column for getting subsequent row placement
     #"Added Index" = Table.AddIndexColumn(Source, "Index", 0, 1, Int64.Type),
     // Extract IDs and add to new column (also remove @ character)
