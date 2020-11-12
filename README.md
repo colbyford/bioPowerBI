@@ -19,3 +19,8 @@ Using the following M (Power Query) scripts and Power BI examples, you can easil
 | .gff     	| https://m.ensembl.org/info/website/upload/gff3.html   	| [\gff3](gff3) 	       	|                                     |
 | .bgen    	| https://www.well.ox.ac.uk/~gav/bgen_format/spec/latest.html   	| [\bgen](bgen)   | Requires the `rbgen` R package.<br> _Work in progress..._      |
 
+## Blog Post
+To view our post on BlueGranite's Blog, click here: https://www.bluegranite.com/blog/reading-bioinformatics-and-genomics-files-in-power-bi
+
+## YouTube Demo
+To view our short demo using these template scripts, click here: https://youtu.be/rC1TLm2UbNg
