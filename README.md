@@ -1,6 +1,6 @@
 # bio-Power BI
 
-<h3 align="right">Josh Crittenden and Colby T. Ford</h3>
+<h3 align="right">Josh Crittenden and Colby T. Ford, Ph.D.</h3>
 
 Resources for reading and visualizing bioinformatics and genomics data using Microsoft [Power BI](powerbi.com).
 
