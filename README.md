@@ -1,4 +1,4 @@
-# bio-Power BI
+# bioPower BI
 
 <h3 align="right">Josh Crittenden and Colby T. Ford, Ph.D.</h3>
 
