@@ -2,7 +2,7 @@
 
 <h3 align="right">Josh Crittenden and Colby T. Ford, Ph.D.</h3>
 
-Resources for reading and visualizing bioinformatics and genomics data using Microsoft [Power BI](powerbi.com).
+Resources for reading and visualizing bioinformatics and genomics data using Microsoft [Power BI](https://powerbi.com).
 
 Using the following M (Power Query) scripts and Power BI examples, you can easily read in various unique file types commonly found in genomics.
 
