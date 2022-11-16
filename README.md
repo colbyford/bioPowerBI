@@ -6,7 +6,8 @@ Resources for reading and visualizing bioinformatics and genomics data using Mic
 
 Using the following M (Power Query) scripts and Power BI examples, you can easily read in various unique file types commonly found in genomics.
 
-<p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png" width="100px"></p>
+<!--<p align="right"><img src="https://raw.githubusercontent.com/colbyford/bioPowerBI/master/img/icon.png" width="100px"></p>-->
+<p align="right"><img src="https://github.com/microsoft/PowerBI-Icons/raw/main/PNG/Power-BI.png" width="100px"></p>
 
 ## File Parsers
 
